@@ -1,0 +1,46 @@
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: gray;
+  padding: 25px 20px 25px 20px;
+  width: 800px;
+  /* height: 500px; */
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  padding: 20px 10px;
+}
+
+.cart {
+  display: inline-block;
+  width: 200px;
+  height: 350px;
+  background-color: white;
+  padding: 20px 15px;
+}
+
+.image {
+  width: 100%;
+}
+
+.heading {
+  padding: 20px 0;
+}
+
+.cart:first-child {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.cart + .cart {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
